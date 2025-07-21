@@ -1,0 +1,399 @@
+2025-07-19 23:45:14.692 | pid 8860 | HackBGRT installer version: v2.5.2
+2025-07-19 23:45:14.694 | pid 8860 | Windows version: Microsoft Windows NT 6.2.9200.0
+2025-07-19 23:45:14.694 | pid 8860 | Args: 
+2025-07-19 23:45:14.700 | pid 8860 | Your OS uses arch=x64. This will be checked again during installation.
+2025-07-19 23:45:14.700 | pid 8860 | 
+2025-07-19 23:45:14.701 | pid 8860 | Choose action (press a key):
+2025-07-19 23:45:14.701 | pid 8860 |  I = install
+2025-07-19 23:45:14.701 | pid 8860 |      - creates a new EFI boot entry for HackBGRT
+2025-07-19 23:45:14.701 | pid 8860 |  J = install (alternative)
+2025-07-19 23:45:14.701 | pid 8860 |      - creates a new EFI boot entry with an alternative method
+2025-07-19 23:45:14.703 | pid 8860 |      - try this if the first option doesn't work
+2025-07-19 23:45:14.704 | pid 8860 |  O = install (legacy)
+2025-07-19 23:45:14.704 | pid 8860 |      - overwrites the MS boot loader; gets removed by Windows updates
+2025-07-19 23:45:14.704 | pid 8860 |      - use as last resort; may brick your system if configured incorrectly
+2025-07-19 23:45:14.704 | pid 8860 |  F = install files only
+2025-07-19 23:45:14.704 | pid 8860 |      - ok for updating config, doesn't touch boot entries
+2025-07-19 23:45:14.705 | pid 8860 |  D = disable
+2025-07-19 23:45:14.705 | pid 8860 |      - removes created entries, restores MS boot loader
+2025-07-19 23:45:14.705 | pid 8860 |  R = remove completely
+2025-07-19 23:45:14.705 | pid 8860 |      - disables, then deletes all files and images
+2025-07-19 23:45:14.705 | pid 8860 |  B = boot to UEFI setup
+2025-07-19 23:45:14.706 | pid 8860 |      - lets you disable Secure Boot
+2025-07-19 23:45:14.706 | pid 8860 |      - lets you move HackBGRT before Windows in boot order
+2025-07-19 23:45:14.706 | pid 8860 |  L = show boot log (what HackBGRT did during boot)
+2025-07-19 23:45:14.706 | pid 8860 |  C = cancel
+2025-07-19 23:45:18.820 | pid 8860 | User input: O
+2025-07-19 23:45:18.820 | pid 8860 | 
+2025-07-19 23:45:18.821 | pid 8860 | This setup program lets you edit just one image.
+2025-07-19 23:45:18.821 | pid 8860 | Edit config.txt manually for advanced configuration.
+2025-07-19 23:45:18.821 | pid 8860 | Draw or copy your preferred image to splash.bmp.
+2025-07-19 23:45:18.821 | pid 8860 | StartProcess: mspaint splash.bmp
+2025-07-19 23:47:24.950 | pid 8860 | 
+2025-07-19 23:47:24.959 | pid 8860 | RunPrivilegedActions: disable install enable-overwrite
+2025-07-19 23:47:24.959 | pid 8860 | RunElevated: C:\Users\coinyyvr\Downloads\HackBGRT-2.5.2\setup.exe is-elevated  disable install enable-overwrite
+2025-07-19 23:47:26.817 | pid 2000 | HackBGRT installer version: v2.5.2
+2025-07-19 23:47:26.819 | pid 2000 | Windows version: Microsoft Windows NT 6.2.9200.0
+2025-07-19 23:47:26.819 | pid 2000 | Args: is-elevated disable install enable-overwrite
+2025-07-19 23:47:26.822 | pid 2000 | Your OS uses arch=x64. This will be checked again during installation.
+2025-07-19 23:47:26.823 | pid 2000 | RunPrivilegedActions: disable install enable-overwrite
+2025-07-19 23:47:26.823 | pid 2000 | Esp: Detect from mountvol output.
+2025-07-19 23:47:26.823 | pid 2000 | Execute: mountvol 
+2025-07-19 23:47:27.254 | pid 2000 | Exit code: 0, output:
+2025-07-19 23:47:27.254 | pid 2000 | Creates, deletes, or lists a volume mount point.
+2025-07-19 23:47:27.254 | pid 2000 | 
+2025-07-19 23:47:27.254 | pid 2000 | MOUNTVOL [drive:]path VolumeName
+2025-07-19 23:47:27.254 | pid 2000 | MOUNTVOL [drive:]path /D
+2025-07-19 23:47:27.254 | pid 2000 | MOUNTVOL [drive:]path /L
+2025-07-19 23:47:27.254 | pid 2000 | MOUNTVOL [drive:]path /P
+2025-07-19 23:47:27.254 | pid 2000 | MOUNTVOL /R
+2025-07-19 23:47:27.254 | pid 2000 | MOUNTVOL /N
+2025-07-19 23:47:27.254 | pid 2000 | MOUNTVOL /E
+2025-07-19 23:47:27.254 | pid 2000 | MOUNTVOL drive: /S
+2025-07-19 23:47:27.254 | pid 2000 | 
+2025-07-19 23:47:27.254 | pid 2000 |     path        Specifies the existing NTFS directory where the mount
+2025-07-19 23:47:27.254 | pid 2000 |                 point will reside.
+2025-07-19 23:47:27.254 | pid 2000 |     VolumeName  Specifies the volume name that is the target of the mount
+2025-07-19 23:47:27.254 | pid 2000 |                 point.
+2025-07-19 23:47:27.254 | pid 2000 |     /D          Removes the volume mount point from the specified directory.
+2025-07-19 23:47:27.254 | pid 2000 |     /L          Lists the mounted volume name for the specified directory.
+2025-07-19 23:47:27.254 | pid 2000 |     /P          Removes the volume mount point from the specified directory,
+2025-07-19 23:47:27.254 | pid 2000 |                 dismounts the volume, and makes the volume not mountable.
+2025-07-19 23:47:27.254 | pid 2000 |                 You can make the volume mountable again by creating a volume
+2025-07-19 23:47:27.254 | pid 2000 |                 mount point.
+2025-07-19 23:47:27.254 | pid 2000 |     /R          Removes volume mount point directories and registry settings
+2025-07-19 23:47:27.254 | pid 2000 |                 for volumes that are no longer in the system.
+2025-07-19 23:47:27.254 | pid 2000 |     /N          Disables automatic mounting of new volumes.
+2025-07-19 23:47:27.254 | pid 2000 |     /E          Re-enables automatic mounting of new volumes.
+2025-07-19 23:47:27.254 | pid 2000 |     /S          Mount the EFI System Partition on the given drive.
+2025-07-19 23:47:27.254 | pid 2000 | 
+2025-07-19 23:47:27.254 | pid 2000 | Possible values for VolumeName along with current mount points are:
+2025-07-19 23:47:27.254 | pid 2000 | 
+2025-07-19 23:47:27.254 | pid 2000 |     \\?\Volume{00004bd6-0000-0000-0000-100000000000}\
+2025-07-19 23:47:27.254 | pid 2000 |         D:\
+2025-07-19 23:47:27.254 | pid 2000 | 
+2025-07-19 23:47:27.254 | pid 2000 |     \\?\Volume{ec2b8391-2dce-4dc5-a0ff-e5c77d202150}\
+2025-07-19 23:47:27.254 | pid 2000 |         C:\
+2025-07-19 23:47:27.254 | pid 2000 | 
+2025-07-19 23:47:27.254 | pid 2000 |     \\?\Volume{7f90078e-b166-4b96-a493-ac7536f3957c}\
+2025-07-19 23:47:27.254 | pid 2000 |         I:\
+2025-07-19 23:47:27.254 | pid 2000 | 
+2025-07-19 23:47:27.254 | pid 2000 |     \\?\Volume{45ca0441-39a5-4384-99fe-d4797f636762}\
+2025-07-19 23:47:27.254 | pid 2000 |         *** NO MOUNT POINTS ***
+2025-07-19 23:47:27.254 | pid 2000 | 
+2025-07-19 23:47:27.254 | pid 2000 | 
+2025-07-19 23:47:27.254 | pid 2000 | 
+2025-07-19 23:47:27.254 | pid 2000 | 
+2025-07-19 23:47:27.254 | pid 2000 | Esp: no match
+2025-07-19 23:47:27.254 | pid 2000 | Esp: Try to mount with mountvol.
+2025-07-19 23:47:27.262 | pid 2000 | Esp.Mount: A
+2025-07-19 23:47:27.262 | pid 2000 | Execute: mountvol A: /S
+2025-07-19 23:47:27.270 | pid 2000 | Exit code: 0, output:
+2025-07-19 23:47:27.270 | pid 2000 | 
+2025-07-19 23:47:27.270 | pid 2000 | 
+2025-07-19 23:47:27.270 | pid 2000 | 
+2025-07-19 23:47:27.270 | pid 2000 | Esp.TryPath: A:\ has MS boot loader
+2025-07-19 23:47:27.270 | pid 2000 | EFI System Partition location is A:\
+2025-07-19 23:47:27.270 | pid 2000 | Detected arch=x64 from MS boot loader, the installer will use that.
+2025-07-19 23:47:27.270 | pid 2000 | 
+2025-07-19 23:47:27.270 | pid 2000 | --- BOOT LOG START ---
+2025-07-19 23:47:27.270 | pid 2000 | Boot log is empty.
+2025-07-19 23:47:27.270 | pid 2000 | --- BOOT LOG END ---
+2025-07-19 23:47:27.270 | pid 2000 | LogBGRT: 56 bytes: 42 47 52 54 38 00 00 00 01 E0 41 4C 41 53 4B 41 41 20 4D 20 49 00 00 00 09 20 07 01 41 4D 49 20 13 00 01 00 01 00 01 00 18 70 C8 B4 00 00 00 00 6B 00 00 00 46 01 00 00
+2025-07-19 23:47:27.286 | pid 2000 | LogEntries: BootOrder Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='        ' Bytes='01 00 00 00 03 00 04 00'
+2025-07-19 23:47:27.286 | pid 2000 | LogEntries: BootCurrent Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=6 Text='  ' Bytes='01 00'
+2025-07-19 23:47:27.302 | pid 2000 | LogEntries: Boot0001 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    b U b u n t u     *                     A  E 9 C   ycgb    4 \ E F I \ U B U N T U \ S H I M X 6 4 . E F I      ' Bytes='01 00 00 00 62 00 55 00 62 00 75 00 6E 00 74 00 75 00 00 00 04 01 2A 00 01 00 00 00 00 08 00 00 00 00 00 00 00 A0 0F 00 00 00 00 00 41 04 CA 45 A5 39 84 43 99 FE D4 79 7F 63 67 62 02 02 04 04 34 00 5C 00 45 00 46 00 49 00 5C 00 55 00 42 00 55 00 4E 00 54 00 55 00 5C 00 53 00 48 00 49 00 4D 00 58 00 36 00 34 00 2E 00 45 00 46 00 49 00 00 00 7F FF 04 00'
+2025-07-19 23:47:27.302 | pid 2000 | LogEntries: Boot0000 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    t W i n d o w s   B o o t   M a n a g e r     *                     A  E 9 C   ycgb    F \ E F I \ M I C R O S O F T \ B O O T \ B O O T M G F W . E F I      WINDOWS         x   B C D O B J E C T = { 9 d e a 8 6 2 c - 5 c d d - 4 e 7 0 - a c c 1 - f 3 2 b 3 4 4 d 4 7 9 5 }   a                ' Bytes='01 00 00 00 74 00 57 00 69 00 6E 00 64 00 6F 00 77 00 73 00 20 00 42 00 6F 00 6F 00 74 00 20 00 4D 00 61 00 6E 00 61 00 67 00 65 00 72 00 00 00 04 01 2A 00 01 00 00 00 00 08 00 00 00 00 00 00 00 A0 0F 00 00 00 00 00 41 04 CA 45 A5 39 84 43 99 FE D4 79 7F 63 67 62 02 02 04 04 46 00 5C 00 45 00 46 00 49 00 5C 00 4D 00 49 00 43 00 52 00 4F 00 53 00 4F 00 46 00 54 00 5C 00 42 00 4F 00 4F 00 54 00 5C 00 42 00 4F 00 4F 00 54 00 4D 00 47 00 46 00 57 00 2E 00 45 00 46 00 49 00 00 00 7F FF 04 00 57 49 4E 44 4F 57 53 00 01 00 00 00 88 00 00 00 78 00 00 00 42 00 43 00 44 00 4F 00 42 00 4A 00 45 00 43 00 54 00 3D 00 7B 00 39 00 64 00 65 00 61 00 38 00 36 00 32 00 63 00 2D 00 35 00 63 00 64 00 64 00 2D 00 34 00 65 00 37 00 30 00 2D 00 61 00 63 00 63 00 31 00 2D 00 66 00 33 00 32 00 62 00 33 00 34 00 34 00 64 00 34 00 37 00 39 00 35 00 7D 00 00 00 61 00 01 00 00 00 10 00 00 00 04 00 00 00 7F FF 04 00'
+2025-07-19 23:47:27.302 | pid 2000 | LogEntries: Boot0003 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    k W D C   W D S 2 4 0 G 2 G 0 C - 0 0 A J M 0                    A                            D K        .  Gd- ; A  MQ  L 2 2 2 7 4 R 8 0 1 7 4 0        BO' Bytes='01 00 00 00 6B 00 57 00 44 00 43 00 20 00 57 00 44 00 53 00 32 00 34 00 30 00 47 00 32 00 47 00 30 00 43 00 2D 00 30 00 30 00 41 00 4A 00 4D 00 30 00 00 00 05 01 09 00 02 00 00 00 00 7F FF 04 00 02 01 0C 00 D0 41 03 0A 00 00 00 00 01 01 06 00 02 02 01 01 06 00 00 00 03 17 10 00 01 00 00 00 00 1B 44 8B 4B 08 01 C3 7F FF 04 00 01 04 2E 00 EF 47 64 2D C9 3B A0 41 AC 19 4D 51 D0 1B 4C E6 32 00 32 00 32 00 37 00 34 00 52 00 38 00 30 00 31 00 37 00 34 00 30 00 00 00 7F FF 04 00 00 00 42 4F'
+2025-07-19 23:47:27.302 | pid 2000 | LogEntries: Boot0004 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    u K I N G S T O N   S A 4 0 0 S 3 7 2 4 0 G                    A                                 >  Gd- ; A  MQ  L 0 5 2 0 B 6 6 7 5 8 A F 8 7 7 C                BO' Bytes='01 00 00 00 75 00 4B 00 49 00 4E 00 47 00 53 00 54 00 4F 00 4E 00 20 00 53 00 41 00 34 00 30 00 30 00 53 00 33 00 37 00 32 00 34 00 30 00 47 00 00 00 05 01 09 00 02 00 00 00 00 7F FF 04 00 02 01 0C 00 D0 41 03 0A 00 00 00 00 01 01 06 00 01 02 01 01 06 00 01 00 03 12 0A 00 05 00 FF FF 00 00 7F FF 04 00 01 04 3E 00 EF 47 64 2D C9 3B A0 41 AC 19 4D 51 D0 1B 4C E6 30 00 35 00 32 00 30 00 42 00 36 00 36 00 37 00 35 00 38 00 41 00 46 00 38 00 37 00 37 00 43 00 20 00 20 00 20 00 20 00 00 00 7F FF 04 00 00 00 42 4F'
+2025-07-19 23:47:27.318 | pid 2000 | HackBGRT boot entry is missing.
+2025-07-19 23:47:27.381 | pid 2000 | Boot time = 7/16/2025 5:22:51 PM, config.txt changed = 7/19/2025 11:45:02 PM
+2025-07-19 23:47:27.381 | pid 2000 | Windows was booted at 7/16/2025 5:22:51 PM. Remember to reboot after installing!
+2025-07-19 23:47:27.381 | pid 2000 | You may have to disable Fast Startup (Hiberboot) to reboot properly.
+2025-07-19 23:47:27.381 | pid 2000 | Running action 'disable'.
+2025-07-19 23:47:27.718 | pid 2000 | DetectLoader failed: A:\EFI\HackBGRT\bootmgfw-original.efi not found
+2025-07-19 23:47:27.718 | pid 2000 | Execute: bcdedit /enum firmware
+2025-07-19 23:47:28.017 | pid 2000 | Exit code: 0, output:
+2025-07-19 23:47:28.017 | pid 2000 | 
+2025-07-19 23:47:28.017 | pid 2000 | Firmware Boot Manager
+2025-07-19 23:47:28.017 | pid 2000 | ---------------------
+2025-07-19 23:47:28.017 | pid 2000 | identifier              {fwbootmgr}
+2025-07-19 23:47:28.017 | pid 2000 | displayorder            {6e1c752b-4beb-11f0-8fb6-806e6f6e6963}
+2025-07-19 23:47:28.017 | pid 2000 |                         {bootmgr}
+2025-07-19 23:47:28.017 | pid 2000 |                         {9eec8eb0-4bcb-11f0-8faf-806e6f6e6963}
+2025-07-19 23:47:28.017 | pid 2000 |                         {be8bca73-4bdb-11f0-8fb4-806e6f6e6963}
+2025-07-19 23:47:28.017 | pid 2000 | timeout                 2
+2025-07-19 23:47:28.017 | pid 2000 | 
+2025-07-19 23:47:28.017 | pid 2000 | Windows Boot Manager
+2025-07-19 23:47:28.017 | pid 2000 | --------------------
+2025-07-19 23:47:28.017 | pid 2000 | identifier              {bootmgr}
+2025-07-19 23:47:28.017 | pid 2000 | device                  partition=A:
+2025-07-19 23:47:28.017 | pid 2000 | path                    \EFI\MICROSOFT\BOOT\BOOTMGFW.EFI
+2025-07-19 23:47:28.017 | pid 2000 | description             Windows Boot Manager
+2025-07-19 23:47:28.017 | pid 2000 | locale                  es-MX
+2025-07-19 23:47:28.017 | pid 2000 | default                 {current}
+2025-07-19 23:47:28.017 | pid 2000 | resumeobject            {8aa54c62-2e50-11e3-a87c-d9faf047cf21}
+2025-07-19 23:47:28.017 | pid 2000 | timeout                 30
+2025-07-19 23:47:28.017 | pid 2000 | 
+2025-07-19 23:47:28.017 | pid 2000 | Firmware Application (101fffff)
+2025-07-19 23:47:28.017 | pid 2000 | -------------------------------
+2025-07-19 23:47:28.017 | pid 2000 | identifier              {6e1c752b-4beb-11f0-8fb6-806e6f6e6963}
+2025-07-19 23:47:28.017 | pid 2000 | device                  partition=A:
+2025-07-19 23:47:28.017 | pid 2000 | path                    \EFI\UBUNTU\SHIMX64.EFI
+2025-07-19 23:47:28.017 | pid 2000 | description             Ubuntu
+2025-07-19 23:47:28.017 | pid 2000 | 
+2025-07-19 23:47:28.017 | pid 2000 | Firmware Application (101fffff)
+2025-07-19 23:47:28.017 | pid 2000 | -------------------------------
+2025-07-19 23:47:28.017 | pid 2000 | identifier              {9eec8eb0-4bcb-11f0-8faf-806e6f6e6963}
+2025-07-19 23:47:28.017 | pid 2000 | description             WDC WDS240G2G0C-00AJM0
+2025-07-19 23:47:28.017 | pid 2000 | 
+2025-07-19 23:47:28.017 | pid 2000 | Firmware Application (101fffff)
+2025-07-19 23:47:28.017 | pid 2000 | -------------------------------
+2025-07-19 23:47:28.017 | pid 2000 | identifier              {be8bca73-4bdb-11f0-8fb4-806e6f6e6963}
+2025-07-19 23:47:28.017 | pid 2000 | description             KINGSTON SA400S37240G
+2025-07-19 23:47:28.017 | pid 2000 | 
+2025-07-19 23:47:28.017 | pid 2000 | 
+2025-07-19 23:47:28.017 | pid 2000 | 
+2025-07-19 23:47:28.017 | pid 2000 | Execute: bcdedit /enum {6e1c752b-4beb-11f0-8fb6-806e6f6e6963}
+2025-07-19 23:47:28.064 | pid 2000 | Exit code: 0, output:
+2025-07-19 23:47:28.064 | pid 2000 | 
+2025-07-19 23:47:28.064 | pid 2000 | Firmware Application (101fffff)
+2025-07-19 23:47:28.064 | pid 2000 | -------------------------------
+2025-07-19 23:47:28.064 | pid 2000 | identifier              {6e1c752b-4beb-11f0-8fb6-806e6f6e6963}
+2025-07-19 23:47:28.064 | pid 2000 | device                  partition=A:
+2025-07-19 23:47:28.064 | pid 2000 | path                    \EFI\UBUNTU\SHIMX64.EFI
+2025-07-19 23:47:28.064 | pid 2000 | description             Ubuntu
+2025-07-19 23:47:28.064 | pid 2000 | 
+2025-07-19 23:47:28.064 | pid 2000 | 
+2025-07-19 23:47:28.064 | pid 2000 | 
+2025-07-19 23:47:28.064 | pid 2000 | Execute: bcdedit /enum {9eec8eb0-4bcb-11f0-8faf-806e6f6e6963}
+2025-07-19 23:47:28.080 | pid 2000 | Exit code: 0, output:
+2025-07-19 23:47:28.080 | pid 2000 | 
+2025-07-19 23:47:28.080 | pid 2000 | Firmware Application (101fffff)
+2025-07-19 23:47:28.080 | pid 2000 | -------------------------------
+2025-07-19 23:47:28.080 | pid 2000 | identifier              {9eec8eb0-4bcb-11f0-8faf-806e6f6e6963}
+2025-07-19 23:47:28.080 | pid 2000 | description             WDC WDS240G2G0C-00AJM0
+2025-07-19 23:47:28.080 | pid 2000 | 
+2025-07-19 23:47:28.080 | pid 2000 | 
+2025-07-19 23:47:28.080 | pid 2000 | 
+2025-07-19 23:47:28.080 | pid 2000 | Execute: bcdedit /enum {be8bca73-4bdb-11f0-8fb4-806e6f6e6963}
+2025-07-19 23:47:28.096 | pid 2000 | Exit code: 0, output:
+2025-07-19 23:47:28.096 | pid 2000 | 
+2025-07-19 23:47:28.096 | pid 2000 | Firmware Application (101fffff)
+2025-07-19 23:47:28.096 | pid 2000 | -------------------------------
+2025-07-19 23:47:28.096 | pid 2000 | identifier              {be8bca73-4bdb-11f0-8fb4-806e6f6e6963}
+2025-07-19 23:47:28.096 | pid 2000 | description             KINGSTON SA400S37240G
+2025-07-19 23:47:28.096 | pid 2000 | 
+2025-07-19 23:47:28.096 | pid 2000 | 
+2025-07-19 23:47:28.096 | pid 2000 | 
+2025-07-19 23:47:28.096 | pid 2000 | Execute: bcdedit /enum {8aa54c62-2e50-11e3-a87c-d9faf047cf21}
+2025-07-19 23:47:28.207 | pid 2000 | Exit code: 0, output:
+2025-07-19 23:47:28.207 | pid 2000 | 
+2025-07-19 23:47:28.207 | pid 2000 | Resume from Hibernate
+2025-07-19 23:47:28.207 | pid 2000 | ---------------------
+2025-07-19 23:47:28.207 | pid 2000 | identifier              {8aa54c62-2e50-11e3-a87c-d9faf047cf21}
+2025-07-19 23:47:28.207 | pid 2000 | device                  partition=C:
+2025-07-19 23:47:28.207 | pid 2000 | path                    \Windows\system32\winresume.efi
+2025-07-19 23:47:28.207 | pid 2000 | description             Windows Resume Application
+2025-07-19 23:47:28.207 | pid 2000 | locale                  es-MX
+2025-07-19 23:47:28.207 | pid 2000 | inherit                 {resumeloadersettings}
+2025-07-19 23:47:28.207 | pid 2000 | recoveryenabled         Yes
+2025-07-19 23:47:28.207 | pid 2000 | isolatedcontext         Yes
+2025-07-19 23:47:28.207 | pid 2000 | allowedinmemorysettings 0x15000075
+2025-07-19 23:47:28.207 | pid 2000 | filedevice              partition=C:
+2025-07-19 23:47:28.207 | pid 2000 | custom:21000026         partition=C:
+2025-07-19 23:47:28.207 | pid 2000 | filepath                \hiberfil.sys
+2025-07-19 23:47:28.207 | pid 2000 | bootmenupolicy          Standard
+2025-07-19 23:47:28.207 | pid 2000 | pae                     Yes
+2025-07-19 23:47:28.207 | pid 2000 | debugoptionenabled      No
+2025-07-19 23:47:28.207 | pid 2000 | 
+2025-07-19 23:47:28.207 | pid 2000 | 
+2025-07-19 23:47:28.207 | pid 2000 | 
+2025-07-19 23:47:28.221 | pid 2000 | Own entry not found.
+2025-07-19 23:47:28.221 | pid 2000 | Disabled NVRAM entry for HackBGRT.
+2025-07-19 23:47:28.221 | pid 2000 | HackBGRT has been disabled.
+2025-07-19 23:47:28.221 | pid 2000 | Completed action 'disable' successfully.
+2025-07-19 23:47:28.221 | pid 2000 | Running action 'install'.
+2025-07-19 23:47:28.223 | pid 2000 | Installed config.txt to A:\EFI\HackBGRT\config.txt.
+2025-07-19 23:47:28.223 | pid 2000 | config.txt:
+2025-07-19 23:47:28.223 | pid 2000 | # vim: set fileencoding=utf-8
+2025-07-19 23:47:28.223 | pid 2000 | # The same options may be given also as command line parameters in the EFI Shell, which is useful for debugging.
+2025-07-19 23:47:28.223 | pid 2000 | 
+2025-07-19 23:47:28.223 | pid 2000 | # Boot loader path. MS = either backup or original Windows boot loader.
+2025-07-19 23:47:28.223 | pid 2000 | boot=MS
+2025-07-19 23:47:28.223 | pid 2000 | 
+2025-07-19 23:47:28.223 | pid 2000 | # The image is specified with an image line.
+2025-07-19 23:47:28.223 | pid 2000 | # Multiple image lines may be present, in which case one will be picked by random.
+2025-07-19 23:47:28.223 | pid 2000 | # The image line may contain the following parts:
+2025-07-19 23:47:28.223 | pid 2000 | # Any of the following:
+2025-07-19 23:47:28.223 | pid 2000 | #  - "n=(number)", a weight for this image in the randomization process. Default: n=1.
+2025-07-19 23:47:28.223 | pid 2000 | #  - "x=(number)" or "x=keep", the x offset from the center. Default: x=0.
+2025-07-19 23:47:28.223 | pid 2000 | #  - "y=(number)" or "y=keep", the y offset from the center. Default: y=0.
+2025-07-19 23:47:28.223 | pid 2000 | #  - "o=(0|90|180|270|keep)", the screen orientation, degrees anticlockwise. Default: o=keep.
+2025-07-19 23:47:28.223 | pid 2000 | # One of the following:
+2025-07-19 23:47:28.223 | pid 2000 | #  - "keep" to keep the firmware logo. Also keeps coordinates by default.
+2025-07-19 23:47:28.223 | pid 2000 | #  - "remove" to remove the BGRT. Makes x and y meaningless.
+2025-07-19 23:47:28.223 | pid 2000 | #  - "black" to use only a black image. Makes x and y meaningless.
+2025-07-19 23:47:28.223 | pid 2000 | #  - "path=file.bmp" to read an image file.
+2025-07-19 23:47:28.223 | pid 2000 | #    * NOTE: The installer can copy and convert BMP, PNG, JPEG, GIF.
+2025-07-19 23:47:28.223 | pid 2000 | # Examples:
+2025-07-19 23:47:28.223 | pid 2000 | #  - image=remove
+2025-07-19 23:47:28.223 | pid 2000 | #  - image=black
+2025-07-19 23:47:28.223 | pid 2000 | #  - image= x=0 y=-200 path=topimage.bmp
+2025-07-19 23:47:28.223 | pid 2000 | #  - image= n=1 o=90 path=sideways.bmp
+2025-07-19 23:47:28.223 | pid 2000 | #  - image= n=50 y=999999 o=keep path=probable.bmp
+2025-07-19 23:47:28.223 | pid 2000 | # The above examples together would produce
+2025-07-19 23:47:28.223 | pid 2000 | #  - 1/54 chance for the default OS logo
+2025-07-19 23:47:28.223 | pid 2000 | #  - 1/54 chance for black screen
+2025-07-19 23:47:28.223 | pid 2000 | #  - 1/54 chance for topimage.bmp, 200 px above the center of the screen
+2025-07-19 23:47:28.223 | pid 2000 | #  - 1/54 chance for splash.bmp, centered, orientation set to 90 degrees
+2025-07-19 23:47:28.223 | pid 2000 | #  - 50/54 chance for probable.bmp, at the bottom edge, explicitly default orientation
+2025-07-19 23:47:28.223 | pid 2000 | # Default: just one image.
+2025-07-19 23:47:28.223 | pid 2000 | image= y=-200 path=splash.bmp
+2025-07-19 23:47:28.223 | pid 2000 | 
+2025-07-19 23:47:28.223 | pid 2000 | # Preferred resolution. Use 0x0 for maximum and -1x-1 for original.
+2025-07-19 23:47:28.223 | pid 2000 | resolution=0x0
+2025-07-19 23:47:28.223 | pid 2000 | 
+2025-07-19 23:47:28.223 | pid 2000 | # Logging (0 for disabled, 1 for enabled).
+2025-07-19 23:47:28.223 | pid 2000 | # When logging is enabled, setup.exe can show debug information about the current boot.
+2025-07-19 23:47:28.223 | pid 2000 | # The log might occupy a few kilobytes of RAM.
+2025-07-19 23:47:28.223 | pid 2000 | log=1
+2025-07-19 23:47:28.223 | pid 2000 | 
+2025-07-19 23:47:28.223 | pid 2000 | # Debug mode (0 for disabled, 1 for enabled).
+2025-07-19 23:47:28.223 | pid 2000 | # Shows debug information and prompts for keypress before booting.
+2025-07-19 23:47:28.223 | pid 2000 | debug=0
+2025-07-19 23:47:28.239 | pid 2000 | InstallImageFile: splash.bmp
+2025-07-19 23:47:28.239 | pid 2000 | Installed image splash.bmp to A:\EFI\HackBGRT\splash.bmp, size 256x128.
+2025-07-19 23:47:28.239 | pid 2000 | Installed shim-signed\shimx64.efi to A:\EFI\HackBGRT\loader.efi.
+2025-07-19 23:47:28.239 | pid 2000 | Installed shim-signed\mmx64.efi to A:\EFI\HackBGRT\mmx64.efi.
+2025-07-19 23:47:28.239 | pid 2000 | Installed efi-signed\bootx64.efi to A:\EFI\HackBGRT\䥗䑎坏SX.
+2025-07-19 23:47:28.239 | pid 2000 | Installed efi-signed\bootx64.efi to A:\EFI\HackBGRT\grubx64.efi.
+2025-07-19 23:47:28.239 | pid 2000 | Installed certificate.cer to A:\EFI\HackBGRT\certificate.cer.
+2025-07-19 23:47:28.239 | pid 2000 | HackBGRT has been copied to A:\EFI\HackBGRT.
+2025-07-19 23:47:28.239 | pid 2000 | On first boot, select 'Enroll hash from disk' and enroll EFI\HackBGRT\grubx64.efi.
+2025-07-19 23:47:28.239 | pid 2000 | Alternatively, select 'Enroll key from disk' and enroll EFI\HackBGRT\certificate.cer.
+2025-07-19 23:47:28.239 | pid 2000 | Completed action 'install' successfully.
+2025-07-19 23:47:28.239 | pid 2000 | Running action 'enable-overwrite'.
+2025-07-19 23:47:28.239 | pid 2000 | Execute: manage-bde -status
+2025-07-19 23:47:28.621 | pid 2000 | Exit code: 0, output:
+2025-07-19 23:47:28.621 | pid 2000 | BitLocker Drive Encryption: Configuration Tool version 10.0.26100
+2025-07-19 23:47:28.621 | pid 2000 | Copyright (C) 2013 Microsoft Corporation. All rights reserved.
+2025-07-19 23:47:28.621 | pid 2000 | 
+2025-07-19 23:47:28.621 | pid 2000 | Disk volumes that can be protected with
+2025-07-19 23:47:28.621 | pid 2000 | BitLocker Drive Encryption:
+2025-07-19 23:47:28.621 | pid 2000 | Volume D: [Data]
+2025-07-19 23:47:28.621 | pid 2000 | [Data Volume]
+2025-07-19 23:47:28.621 | pid 2000 | 
+2025-07-19 23:47:28.621 | pid 2000 |     Size:                 223.57 GB
+2025-07-19 23:47:28.621 | pid 2000 |     BitLocker Version:    None
+2025-07-19 23:47:28.621 | pid 2000 |     Conversion Status:    Fully Decrypted
+2025-07-19 23:47:28.621 | pid 2000 |     Percentage Encrypted: 0.0%
+2025-07-19 23:47:28.621 | pid 2000 |     Encryption Method:    None
+2025-07-19 23:47:28.621 | pid 2000 |     Protection Status:    Protection Off
+2025-07-19 23:47:28.621 | pid 2000 |     Lock Status:          Unlocked
+2025-07-19 23:47:28.621 | pid 2000 |     Identification Field: None
+2025-07-19 23:47:28.621 | pid 2000 |     Automatic Unlock:     Disabled
+2025-07-19 23:47:28.621 | pid 2000 |     Key Protectors:       None Found
+2025-07-19 23:47:28.621 | pid 2000 | 
+2025-07-19 23:47:28.621 | pid 2000 | Volume C: [Windows (Coiny Edition)]
+2025-07-19 23:47:28.621 | pid 2000 | [OS Volume]
+2025-07-19 23:47:28.621 | pid 2000 | 
+2025-07-19 23:47:28.621 | pid 2000 |     Size:                 190.01 GB
+2025-07-19 23:47:28.621 | pid 2000 |     BitLocker Version:    None
+2025-07-19 23:47:28.621 | pid 2000 |     Conversion Status:    Fully Decrypted
+2025-07-19 23:47:28.621 | pid 2000 |     Percentage Encrypted: 0.0%
+2025-07-19 23:47:28.621 | pid 2000 |     Encryption Method:    None
+2025-07-19 23:47:28.621 | pid 2000 |     Protection Status:    Protection Off
+2025-07-19 23:47:28.621 | pid 2000 |     Lock Status:          Unlocked
+2025-07-19 23:47:28.621 | pid 2000 |     Identification Field: None
+2025-07-19 23:47:28.621 | pid 2000 |     Key Protectors:       None Found
+2025-07-19 23:47:28.621 | pid 2000 | 
+2025-07-19 23:47:28.621 | pid 2000 | Volume I: [Icons]
+2025-07-19 23:47:28.621 | pid 2000 | [Data Volume]
+2025-07-19 23:47:28.621 | pid 2000 | 
+2025-07-19 23:47:28.621 | pid 2000 |     Size:                 2047.98 GB
+2025-07-19 23:47:28.621 | pid 2000 |     BitLocker Version:    None
+2025-07-19 23:47:28.621 | pid 2000 |     Conversion Status:    Fully Decrypted
+2025-07-19 23:47:28.621 | pid 2000 |     Percentage Encrypted: 0.0%
+2025-07-19 23:47:28.621 | pid 2000 |     Encryption Method:    None
+2025-07-19 23:47:28.621 | pid 2000 |     Protection Status:    Protection Off
+2025-07-19 23:47:28.621 | pid 2000 |     Lock Status:          Unlocked
+2025-07-19 23:47:28.621 | pid 2000 |     Identification Field: None
+2025-07-19 23:47:28.621 | pid 2000 |     Automatic Unlock:     Disabled
+2025-07-19 23:47:28.621 | pid 2000 |     Key Protectors:       None Found
+2025-07-19 23:47:28.621 | pid 2000 | 
+2025-07-19 23:47:28.621 | pid 2000 | 
+2025-07-19 23:47:28.621 | pid 2000 | 
+2025-07-19 23:47:28.621 | pid 2000 | 
+2025-07-19 23:47:28.621 | pid 2000 | BitLocker is disabled, good!
+2025-07-19 23:47:28.779 | pid 2000 | Installed A:\EFI\Microsoft\Boot\bootmgfw.efi to A:\EFI\HackBGRT\bootmgfw-original.efi.
+2025-07-19 23:47:29.004 | pid 2000 | Installed A:\EFI\HackBGRT\loader.efi to A:\EFI\Microsoft\Boot\bootmgfw.efi.
+2025-07-19 23:47:29.004 | pid 2000 | Installed A:\EFI\HackBGRT\grubx64.efi to A:\EFI\Microsoft\Boot\grubx64.efi.
+2025-07-19 23:47:29.004 | pid 2000 | Installed A:\EFI\HackBGRT\mmx64.efi to A:\EFI\Microsoft\Boot\mmx64.efi.
+2025-07-19 23:47:29.004 | pid 2000 | Verifying config: boot=MS
+2025-07-19 23:47:29.164 | pid 2000 | LogEntries: BootOrder Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='        ' Bytes='01 00 00 00 03 00 04 00'
+2025-07-19 23:47:29.164 | pid 2000 | LogEntries: BootCurrent Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=6 Text='  ' Bytes='01 00'
+2025-07-19 23:47:29.174 | pid 2000 | LogEntries: Boot0001 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    b U b u n t u     *                     A  E 9 C   ycgb    4 \ E F I \ U B U N T U \ S H I M X 6 4 . E F I      ' Bytes='01 00 00 00 62 00 55 00 62 00 75 00 6E 00 74 00 75 00 00 00 04 01 2A 00 01 00 00 00 00 08 00 00 00 00 00 00 00 A0 0F 00 00 00 00 00 41 04 CA 45 A5 39 84 43 99 FE D4 79 7F 63 67 62 02 02 04 04 34 00 5C 00 45 00 46 00 49 00 5C 00 55 00 42 00 55 00 4E 00 54 00 55 00 5C 00 53 00 48 00 49 00 4D 00 58 00 36 00 34 00 2E 00 45 00 46 00 49 00 00 00 7F FF 04 00'
+2025-07-19 23:47:29.174 | pid 2000 | LogEntries: Boot0000 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    t W i n d o w s   B o o t   M a n a g e r     *                     A  E 9 C   ycgb    F \ E F I \ M I C R O S O F T \ B O O T \ B O O T M G F W . E F I      WINDOWS         x   B C D O B J E C T = { 9 d e a 8 6 2 c - 5 c d d - 4 e 7 0 - a c c 1 - f 3 2 b 3 4 4 d 4 7 9 5 }   a                ' Bytes='01 00 00 00 74 00 57 00 69 00 6E 00 64 00 6F 00 77 00 73 00 20 00 42 00 6F 00 6F 00 74 00 20 00 4D 00 61 00 6E 00 61 00 67 00 65 00 72 00 00 00 04 01 2A 00 01 00 00 00 00 08 00 00 00 00 00 00 00 A0 0F 00 00 00 00 00 41 04 CA 45 A5 39 84 43 99 FE D4 79 7F 63 67 62 02 02 04 04 46 00 5C 00 45 00 46 00 49 00 5C 00 4D 00 49 00 43 00 52 00 4F 00 53 00 4F 00 46 00 54 00 5C 00 42 00 4F 00 4F 00 54 00 5C 00 42 00 4F 00 4F 00 54 00 4D 00 47 00 46 00 57 00 2E 00 45 00 46 00 49 00 00 00 7F FF 04 00 57 49 4E 44 4F 57 53 00 01 00 00 00 88 00 00 00 78 00 00 00 42 00 43 00 44 00 4F 00 42 00 4A 00 45 00 43 00 54 00 3D 00 7B 00 39 00 64 00 65 00 61 00 38 00 36 00 32 00 63 00 2D 00 35 00 63 00 64 00 64 00 2D 00 34 00 65 00 37 00 30 00 2D 00 61 00 63 00 63 00 31 00 2D 00 66 00 33 00 32 00 62 00 33 00 34 00 34 00 64 00 34 00 37 00 39 00 35 00 7D 00 00 00 61 00 01 00 00 00 10 00 00 00 04 00 00 00 7F FF 04 00'
+2025-07-19 23:47:29.174 | pid 2000 | LogEntries: Boot0003 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    k W D C   W D S 2 4 0 G 2 G 0 C - 0 0 A J M 0                    A                            D K        .  Gd- ; A  MQ  L 2 2 2 7 4 R 8 0 1 7 4 0        BO' Bytes='01 00 00 00 6B 00 57 00 44 00 43 00 20 00 57 00 44 00 53 00 32 00 34 00 30 00 47 00 32 00 47 00 30 00 43 00 2D 00 30 00 30 00 41 00 4A 00 4D 00 30 00 00 00 05 01 09 00 02 00 00 00 00 7F FF 04 00 02 01 0C 00 D0 41 03 0A 00 00 00 00 01 01 06 00 02 02 01 01 06 00 00 00 03 17 10 00 01 00 00 00 00 1B 44 8B 4B 08 01 C3 7F FF 04 00 01 04 2E 00 EF 47 64 2D C9 3B A0 41 AC 19 4D 51 D0 1B 4C E6 32 00 32 00 32 00 37 00 34 00 52 00 38 00 30 00 31 00 37 00 34 00 30 00 00 00 7F FF 04 00 00 00 42 4F'
+2025-07-19 23:47:29.174 | pid 2000 | LogEntries: Boot0004 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    u K I N G S T O N   S A 4 0 0 S 3 7 2 4 0 G                    A                                 >  Gd- ; A  MQ  L 0 5 2 0 B 6 6 7 5 8 A F 8 7 7 C                BO' Bytes='01 00 00 00 75 00 4B 00 49 00 4E 00 47 00 53 00 54 00 4F 00 4E 00 20 00 53 00 41 00 34 00 30 00 30 00 53 00 33 00 37 00 32 00 34 00 30 00 47 00 00 00 05 01 09 00 02 00 00 00 00 7F FF 04 00 02 01 0C 00 D0 41 03 0A 00 00 00 00 01 01 06 00 01 02 01 01 06 00 01 00 03 12 0A 00 05 00 FF FF 00 00 7F FF 04 00 01 04 3E 00 EF 47 64 2D C9 3B A0 41 AC 19 4D 51 D0 1B 4C E6 30 00 35 00 32 00 30 00 42 00 36 00 36 00 37 00 35 00 38 00 41 00 46 00 38 00 37 00 37 00 43 00 20 00 20 00 20 00 20 00 00 00 7F FF 04 00 00 00 42 4F'
+2025-07-19 23:47:29.174 | pid 2000 | HackBGRT boot entry is missing.
+2025-07-19 23:47:29.174 | pid 2000 | Execute: bcdedit /enum firmware
+2025-07-19 23:47:29.255 | pid 2000 | Exit code: 0, output:
+2025-07-19 23:47:29.255 | pid 2000 | 
+2025-07-19 23:47:29.255 | pid 2000 | Firmware Boot Manager
+2025-07-19 23:47:29.255 | pid 2000 | ---------------------
+2025-07-19 23:47:29.255 | pid 2000 | identifier              {fwbootmgr}
+2025-07-19 23:47:29.255 | pid 2000 | displayorder            {6e1c752b-4beb-11f0-8fb6-806e6f6e6963}
+2025-07-19 23:47:29.255 | pid 2000 |                         {bootmgr}
+2025-07-19 23:47:29.255 | pid 2000 |                         {9eec8eb0-4bcb-11f0-8faf-806e6f6e6963}
+2025-07-19 23:47:29.255 | pid 2000 |                         {be8bca73-4bdb-11f0-8fb4-806e6f6e6963}
+2025-07-19 23:47:29.255 | pid 2000 | timeout                 2
+2025-07-19 23:47:29.255 | pid 2000 | 
+2025-07-19 23:47:29.255 | pid 2000 | Windows Boot Manager
+2025-07-19 23:47:29.255 | pid 2000 | --------------------
+2025-07-19 23:47:29.255 | pid 2000 | identifier              {bootmgr}
+2025-07-19 23:47:29.255 | pid 2000 | device                  partition=A:
+2025-07-19 23:47:29.255 | pid 2000 | path                    \EFI\MICROSOFT\BOOT\BOOTMGFW.EFI
+2025-07-19 23:47:29.255 | pid 2000 | description             Windows Boot Manager
+2025-07-19 23:47:29.255 | pid 2000 | locale                  es-MX
+2025-07-19 23:47:29.255 | pid 2000 | default                 {current}
+2025-07-19 23:47:29.255 | pid 2000 | resumeobject            {8aa54c62-2e50-11e3-a87c-d9faf047cf21}
+2025-07-19 23:47:29.255 | pid 2000 | timeout                 30
+2025-07-19 23:47:29.255 | pid 2000 | 
+2025-07-19 23:47:29.255 | pid 2000 | Firmware Application (101fffff)
+2025-07-19 23:47:29.255 | pid 2000 | -------------------------------
+2025-07-19 23:47:29.255 | pid 2000 | identifier              {6e1c752b-4beb-11f0-8fb6-806e6f6e6963}
+2025-07-19 23:47:29.255 | pid 2000 | device                  partition=A:
+2025-07-19 23:47:29.255 | pid 2000 | path                    \EFI\UBUNTU\SHIMX64.EFI
+2025-07-19 23:47:29.255 | pid 2000 | description             Ubuntu
+2025-07-19 23:47:29.255 | pid 2000 | 
+2025-07-19 23:47:29.255 | pid 2000 | Firmware Application (101fffff)
+2025-07-19 23:47:29.255 | pid 2000 | -------------------------------
+2025-07-19 23:47:29.255 | pid 2000 | identifier              {9eec8eb0-4bcb-11f0-8faf-806e6f6e6963}
+2025-07-19 23:47:29.255 | pid 2000 | description             WDC WDS240G2G0C-00AJM0
+2025-07-19 23:47:29.255 | pid 2000 | 
+2025-07-19 23:47:29.255 | pid 2000 | Firmware Application (101fffff)
+2025-07-19 23:47:29.255 | pid 2000 | -------------------------------
+2025-07-19 23:47:29.255 | pid 2000 | identifier              {be8bca73-4bdb-11f0-8fb4-806e6f6e6963}
+2025-07-19 23:47:29.255 | pid 2000 | description             KINGSTON SA400S37240G
+2025-07-19 23:47:29.255 | pid 2000 | 
+2025-07-19 23:47:29.255 | pid 2000 | 
+2025-07-19 23:47:29.255 | pid 2000 | 
+2025-07-19 23:47:29.255 | pid 2000 | Completed action 'enable-overwrite' successfully.
+2025-07-19 23:47:29.255 | pid 2000 | If you need to report a bug,
+2025-07-19 23:47:29.255 | pid 2000 |  - run this setup again with menu option L (show-boot-log)
+2025-07-19 23:47:29.255 | pid 2000 |  - then include the setup.log file with your report.
+2025-07-19 23:47:29.255 | pid 2000 | Press any key to quit.
+2025-07-19 23:47:31.950 | pid 2000 | Execute: mountvol A:\ /D
+2025-07-19 23:47:31.965 | pid 2000 | Exit code: 0, output:
+2025-07-19 23:47:31.965 | pid 2000 | 
+2025-07-19 23:47:31.965 | pid 2000 | 
+2025-07-19 23:47:31.965 | pid 2000 | 
+2025-07-19 23:47:31.978 | pid 8860 | Privileged action (disable install enable-overwrite) completed.
+2025-07-19 23:47:31.978 | pid 8860 | 
+2025-07-19 23:47:31.979 | pid 8860 | All done!
+2025-07-19 23:47:31.979 | pid 8860 | If you need to report a bug,
+2025-07-19 23:47:31.979 | pid 8860 |  - run this setup again with menu option L (show-boot-log)
+2025-07-19 23:47:31.979 | pid 8860 |  - then include the setup.log file with your report.
+2025-07-19 23:47:31.979 | pid 8860 | Press any key to quit.
